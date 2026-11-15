@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b2339">
+  <title>The Cat Party | A box for every cat</title>
+  <meta name="description" content="Meet the gray-and-white kitten leading The Cat Party. Support the campaign with PayPal, an EVM wallet, or Solana.">
+  <meta property="og:title" content="The Cat Party | A box for every cat">
+  <meta property="og:description" content="Meet our candidate and support the kitten-led campaign.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://raw.githubusercontent.com/ClaudeAIOfficial/Cat/main/media/social.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="The Cat Party campaign seal with its gray-and-white kitten.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/webp" href="./media/seal.webp">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./donate.css">
+  <script defer src="./donate.js"></script>
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <nav class="shell nav" aria-label="Main navigation">
+      <a class="brand" href="#top"><img src="./media/seal.webp" alt="" width="52" height="52"><span>The Cat Party</span></a>
+      <div class="nav-links"><a class="nav-meet" href="#candidate">Meet the candidate</a><a class="button nav-donate" href="#donate">Donate <span aria-hidden="true">→</span></a></div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="shell hero-layout">
+        <div class="hero-copy">
+          <h1 id="hero-title">A box for<br><em>every cat.</em></h1>
+          <p>We started a political party with our kitten. The candidate sets the agenda. We handle the paperwork.</p>
+          <a class="button hero-button" href="#donate">Support the campaign <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="portrait-area">
+          <figure class="portrait-print">
+            <img src="./media/portrait.webp" alt="Our gray-and-white kitten looks up at the camera with its front paws crossed." width="288" height="342" fetchpriority="high">
+            <figcaption>The party leader</figcaption>
+          </figure>
+          <img class="photo-seal" src="./media/seal.webp" alt="" width="123" height="123">
+        </div>
+      </div>
+      <div class="tricolor" aria-hidden="true"></div>
+    </section>
+    <section class="candidate-section" id="candidate" aria-labelledby="candidate-title">
+      <div class="shell candidate-layout">
+        <div class="candidate-copy">
+          <h2 id="candidate-title">Meet the <br><em>candidate.</em></h2>
+          <p>The Cat Party began with the gray-and-white kitten you see here. Between campaign photos, our party leader splits the day between mouse patrol and a quiet spot on the blanket.</p>
+        </div>
+        <div class="photo-pair">
+          <figure><img src="./media/mouse.webp" alt="The kitten sits beside a tablet showing a toy mouse on a yellow screen." width="276" height="367" loading="lazy"><figcaption>On mouse patrol</figcaption></figure>
+          <figure><img src="./media/lounging.webp" alt="The kitten stretches out on a black-and-white blanket." width="285" height="406" loading="lazy"><figcaption>Between appearances</figcaption></figure>
+        </div>
+      </div>
+    </section>
+<section id="donate" aria-labelledby="donation-title">
+  <div class="donation-inner">
+    <div class="donation-intro">
+      <h2 id="donation-title">Support the campaign.</h2>
+      <p>Contribute to The Cat Party through PayPal or your crypto wallet.</p>
+    </div>
+    <div class="donation-methods">
+      <article class="donation-method">
+        <h3>PayPal</h3>
+        <p>Use this email as the recipient in PayPal.</p>
+        <samp id="donation-email">ymirfirst2@gmail.com</samp>
+        <div class="donation-actions">
+          <button type="button" data-copy-target="donation-email" aria-label="Copy PayPal email" hidden><span class="copy-symbol" aria-hidden="true"></span><span>Copy email</span></button>
+          <a href="https://www.paypal.com/myaccount/transfer/send" target="_blank" rel="noopener noreferrer">Open PayPal <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="donation-method">
+        <h3>EVM</h3>
+        <p>EVM wallet address</p>
+        <samp id="donation-evm">0x701d6fd997a710957c6117625a0b5ef26a16f371</samp>
+        <div class="donation-actions">
+          <button type="button" data-copy-target="donation-evm" aria-label="Copy EVM wallet address" hidden><span class="copy-symbol" aria-hidden="true"></span><span>Copy address</span></button>
+        </div>
+      </article>
+      <article class="donation-method">
+        <h3>Solana</h3>
+        <p>SOL wallet address</p>
+        <samp id="donation-sol">HSNiKWQjHioLWWG8jWspctaNLNvCRzGEphSrEadEUWXi</samp>
+        <div class="donation-actions">
+          <button type="button" data-copy-target="donation-sol" aria-label="Copy Solana wallet address" hidden><span class="copy-symbol" aria-hidden="true"></span><span>Copy address</span></button>
+        </div>
+      </article>
+    </div>
+    <p class="donation-status" role="status" aria-live="polite" aria-atomic="true"></p>
+  </div>
+</section>
+  </main>
+  <footer><div class="shell footer-inner"><a class="brand" href="#top"><img src="./media/seal.webp" alt="" width="38" height="38"><span>The Cat Party</span></a><a class="to-top" href="#top">Back to top <span aria-hidden="true">↑</span></a></div></footer>
+</body>
+</html>
